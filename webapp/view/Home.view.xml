@@ -1,0 +1,81 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ToolDev.Toolpage.controller.Home"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page showHeader="false">
+		<content>
+			
+				<Image
+					src="https://www.usnews.com/dims4/USNEWS/1c985ff/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fd4%2Fc9%2F6234b77a4ede900294850cace7f0%2F200103-womanshoppingbags-stock.jpg"/>
+			<VBox>
+				<HBox>
+					<FlexBox class="roundCorners">
+						<VBox>
+							<core:Icon src="sap-icon://private"/>
+							<Text text="Administration" class="flexHeader"/>
+							<Text text="You find here access to all administration functionality "/>
+							<Link text="Click here"/>
+							<Link text="Click here"/>
+						</VBox>
+					</FlexBox>
+					<FlexBox class="roundCornerso">
+						<VBox>
+							<core:Icon src="sap-icon://add-product"/>
+							<Text text="Product" class="flexHeader"/>
+							<Text text="You find here access to all administration functionality "/>
+							<Link text="Click here"/>
+							<Link text="Click here"/>
+						</VBox>
+					</FlexBox>
+						<FlexBox class="roundCorners">
+							<VBox>
+								<core:Icon src="sap-icon://private"/>
+								<Text text="Revenue" class="flexHeader"/>
+								<Text text="You find here access to all administration functionality "/>
+								<Link text="Click here"/>
+								<Link text="Click here"/>
+							</VBox>
+						</FlexBox>
+						<FlexBox class="roundCornerso">
+							<VBox>
+								<core:Icon src="sap-icon://supplier"/>
+								<Text text="Suppliers" class="flexHeader"/>
+								<Text text="You find here access to all administration functionality "/>
+								<Link text="Click here"/>
+								<Link text="Click here"/>
+							</VBox>
+						</FlexBox>
+					</HBox>
+					<HBox>
+						<FlexBox class="roundCornerso">
+							<VBox>
+								<core:Icon src="sap-icon://private"/>
+								<Text text="Administration" class="flexHeader"/>
+								<Text text="You find here access to all administration functionality "/>
+								<Link text="Click here"/>
+								<Link text="Click here"/>
+							</VBox>
+						</FlexBox>
+						<Table class="tableStyle">
+							<columns>
+								<Column>
+									<Text text="Sno"/>
+								</Column>
+								<Column>
+									<Text text="Sno"/>
+								</Column>
+								<Column>
+									<Text text="Sno"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<Text text="Sample"/>
+									<Text text="Sample"/>
+									<Text text="Sample"/>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</HBox>
+				</VBox>
+			</content>
+		</Page>
+	</mvc:View>
